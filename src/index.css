@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --bg-navy: #090B18;
+    --bg-dark: #0D1020;
+    --surface: #151A2E;
+    --surface-elevated: #1C2340;
+    --primary-violet: #8257F5;
+    --electric-blue: #4388F5;
+    --soft-purple: #B7A1FF;
+    --secondary-text: #A1A9C2;
+  }
+
+  body {
+    background-color: #090B18;
+    color: #FFFFFF;
+    font-family: 'Plus Jakarta Sans', 'Manrope', system-ui, sans-serif;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0D1020;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1C2340;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8257F5;
+}
+
+/* Studio subtle glow utilities */
+.glow-violet {
+  box-shadow: 0 0 25px -5px rgba(130, 87, 245, 0.35);
+}
+
+.glow-blue {
+  box-shadow: 0 0 25px -5px rgba(67, 136, 245, 0.35);
+}
+
+.gradient-border {
+  border: 1px solid transparent;
+  background-image: linear-gradient(#151A2E, #151A2E), linear-gradient(135deg, rgba(130, 87, 245, 0.5), rgba(67, 136, 245, 0.2));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}

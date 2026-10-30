@@ -1,0 +1,1410 @@
+# PROMPT MESTRE — SITEFORGE IA
+## PROFESSIONAL WEBSITE BUILDER
+### Visual Editor + Conversational Builder + Code Exporter
+
+Atue como uma equipe de desenvolvimento de software de nível internacional, composta por:
+
+- Arquiteto de software sênior.
+- Engenheiro frontend especialista em React e TypeScript.
+- Especialista em editores visuais e construtores de páginas.
+- Product Designer especializado em SaaS premium.
+- Especialista em UX/UI.
+- Especialista em HTML, CSS e JavaScript.
+- Especialista em geração de sites responsivos.
+- Especialista em PWA, armazenamento local e exportação de projetos.
+- Especialista em arquitetura de aplicações escaláveis.
+
+Sua missão é projetar e desenvolver o **SITEFORGE IA**, um construtor profissional de sites com editor visual, assistente conversacional, biblioteca de componentes, gerenciamento de projetos e exportação de código-fonte.
+
+Não desenvolva apenas uma demonstração visual.
+
+Construa uma aplicação comercial, profissional, modular, organizada e preparada para evolução.
+
+---
+
+# 1. VISÃO DO PRODUTO
+
+**NOME:** SITEFORGE IA
+
+**SLOGAN:** Crie sites extraordinários. Sem complicação.
+
+**POSICIONAMENTO:** Professional Website Creation Studio.
+
+O SITEFORGE IA será um aplicativo independente comercializado por compra única.
+
+Seu objetivo é permitir que qualquer pessoa crie sites profissionais, mesmo sem conhecimento avançado de programação.
+
+O usuário poderá:
+
+1. Criar sites a partir de uma descrição.
+2. Escolher o tipo de projeto.
+3. Definir identidade visual.
+4. Gerar estruturas de páginas.
+5. Criar sites com múltiplas páginas.
+6. Editar elementos visualmente.
+7. Arrastar e soltar componentes.
+8. Editar textos, imagens e estilos.
+9. Modificar o projeto por comandos conversacionais.
+10. Criar menus e navegação.
+11. Criar formulários.
+12. Criar catálogos de produtos.
+13. Criar páginas comerciais.
+14. Criar lojas virtuais com integração de checkout externo.
+15. Visualizar o site em desktop, tablet e celular.
+16. Exportar o código-fonte completo.
+17. Baixar o projeto em ZIP.
+18. Preparar o projeto para publicação em hospedagem externa.
+19. Gerenciar múltiplos projetos.
+20. Duplicar, editar e versionar projetos.
+
+O resultado deverá ser um verdadeiro estúdio profissional de criação de sites.
+
+---
+
+# 2. MODELO COMERCIAL E RESTRIÇÕES
+
+O SITEFORGE IA será vendido por COMPRA ÚNICA.
+
+Não deverá depender de assinatura mensal obrigatória.
+
+Não deverá consumir créditos de uma API paga pelo desenvolvedor para executar as funções essenciais.
+
+ARQUITETURA LOCAL-FIRST:
+
+- Não exigir cadastro obrigatório.
+- Não exigir banco de dados remoto.
+- Não depender de Supabase.
+- Não depender de Firebase.
+- Não depender de API de IA paga.
+- Não enviar os projetos dos clientes para servidores externos sem autorização.
+- Armazenar os projetos localmente.
+- Permitir exportação e restauração.
+- Permitir funcionamento offline das funções compatíveis.
+
+Utilizar IndexedDB como armazenamento principal.
+
+Utilizar Dexie.js para facilitar o acesso ao banco.
+
+Não utilizar LocalStorage para armazenar projetos ou arquivos grandes.
+
+O aplicativo poderá utilizar serviços externos quando o cliente solicitar publicação, hospedagem, checkout, formulários ou outras integrações.
+
+Esses serviços devem ser apresentados como opcionais e podem possuir custos próprios.
+
+---
+
+# 3. INTELIGÊNCIA ARTIFICIAL — MODELO SEM API OBRIGATÓRIA
+
+IMPORTANTE:
+
+Não implementar chamadas obrigatórias à API Gemini, OpenAI ou qualquer outro serviço pago.
+
+Não incluir chaves de API no frontend.
+
+Não simular inteligência artificial que não existe.
+
+Criar uma arquitetura chamada:
+
+**SITEFORGE INTELLIGENCE ENGINE**
+
+Ela deverá ter três mecanismos.
+
+### A. LOCAL SITE PLANNER
+
+Motor local baseado em regras, modelos e estruturas predefinidas.
+
+Será responsável por:
+
+- Organizar briefings.
+- Identificar categorias de sites.
+- Recomendar estruturas de páginas.
+- Selecionar componentes.
+- Montar layouts.
+- Aplicar estilos.
+- Criar operações estruturadas.
+- Gerar projetos iniciais.
+
+### B. CONVERSATIONAL COMMAND ENGINE
+
+Interpretar comandos por meio de regras, intenções reconhecidas e operações estruturadas.
+
+Exemplos:
+
+"Adicione uma seção de depoimentos."
+
+"Troque o fundo para azul-marinho."
+
+"Crie uma página sobre nós."
+
+"Adicione um botão do WhatsApp."
+
+"Deixe o cabeçalho fixo."
+
+"Organize os cards em três colunas."
+
+"Reduza o espaço entre as seções."
+
+O sistema deverá transformar comandos reconhecidos em operações seguras sobre o projeto.
+
+Quando não entender um comando, deverá solicitar esclarecimentos.
+
+Não executar alterações destrutivas sem confirmação.
+
+### C. EXTERNAL AI PROMPT BRIDGE
+
+Criar um mecanismo para preparar prompts profissionais que utilizem o contexto do projeto.
+
+Permitir:
+
+- Copiar prompt.
+- Abrir ChatGPT.
+- Abrir Gemini.
+- Importar instruções ou resultados.
+- Aplicar alterações estruturadas após validação.
+
+O usuário utiliza sua própria conta externa.
+
+Não automatizar login, capturar cookies, acessar sessões ou tentar consumir cotas pessoais de ferramentas externas.
+
+Deixar explícito quando uma operação depender de uma ferramenta externa.
+
+---
+
+# 4. IDENTIDADE VISUAL
+
+Criar uma identidade visual premium e tecnológica.
+
+O SITEFORGE IA deverá parecer uma plataforma internacional de desenvolvimento web.
+
+REFERÊNCIAS ESTÉTICAS:
+
+- Ferramentas modernas de desenvolvimento.
+- Editores profissionais de sites.
+- Plataformas premium de design.
+- Interfaces sofisticadas de SaaS.
+- Estúdios criativos digitais.
+
+PALETA:
+
+Deep Navy: #090B18
+
+Dark Background: #0D1020
+
+Surface: #151A2E
+
+Elevated Surface: #1C2340
+
+Primary Violet: #8257F5
+
+Electric Blue: #4388F5
+
+Soft Purple: #B7A1FF
+
+White: #FFFFFF
+
+Secondary Text: #A1A9C2
+
+TIPOGRAFIA:
+
+Utilizar Inter ou Manrope.
+
+ESTILO:
+
+- Moderno.
+- Sofisticado.
+- Tecnológico.
+- Minimalista.
+- Profissional.
+- Alto contraste.
+- Hierarquia visual refinada.
+- Animações suaves.
+- Microinterações.
+- Bordas discretas.
+- Sombras elegantes.
+- Gradientes controlados.
+
+Não utilizar excesso de neon.
+
+Não utilizar componentes genéricos sem personalidade.
+
+Não deixar a interface com aparência de painel administrativo comum.
+
+A experiência deverá ser visualmente impactante.
+
+---
+
+# 5. TECNOLOGIAS E BIBLIOTECAS
+
+Utilizar preferencialmente:
+
+- React.
+- TypeScript.
+- Vite.
+- Tailwind CSS.
+- Lucide React.
+- Dexie.js.
+- IndexedDB.
+- GrapesJS como motor do editor visual.
+- JSZip para exportação.
+- vite-plugin-pwa.
+- HTML5.
+- CSS3.
+- JavaScript moderno.
+- SVG.
+
+Utilizar bibliotecas adicionais somente quando necessárias.
+
+Antes de adicionar uma dependência, verificar compatibilidade, manutenção e tamanho.
+
+GrapesJS deverá ser utilizado como motor de edição, com interface visual personalizada do SITEFORGE IA.
+
+Não expor a interface padrão sem personalização como se fosse o produto final.
+
+---
+
+# 6. ARQUITETURA DO SISTEMA
+
+Organizar o projeto em módulos independentes.
+
+Estrutura sugerida:
+
+src/
+  app/
+    App.tsx
+    routes/
+    providers/
+
+  core/
+    database/
+    storage/
+    projects/
+    pages/
+    components/
+    editor/
+    design-engine/
+    intelligence/
+    command-engine/
+    prompt-bridge/
+    export/
+    backup/
+    publishing/
+    versioning/
+
+  modules/
+    dashboard/
+    new-project/
+    site-builder/
+    visual-editor/
+    pages-manager/
+    components-library/
+    templates/
+    assets/
+    seo/
+    settings/
+
+  layouts/
+  components/
+  hooks/
+  services/
+  types/
+  config/
+  styles/
+
+Criar arquivos de configuração centralizados.
+
+Separar claramente:
+
+- Interface.
+- Estado da aplicação.
+- Dados.
+- Motor do editor.
+- Estrutura dos sites.
+- Renderização.
+- Exportação.
+- Integrações externas.
+
+Não colocar toda a aplicação em um único arquivo.
+
+---
+
+# 7. MODELO DE DADOS DO PROJETO
+
+O projeto deverá ser armazenado em uma estrutura própria, independente da renderização.
+
+Entidades principais:
+
+### WebsiteProject
+
+- id.
+- name.
+- description.
+- category.
+- createdAt.
+- updatedAt.
+- status.
+- designTokens.
+- settings.
+- pages.
+- assets.
+- version.
+
+### WebsitePage
+
+- id.
+- projectId.
+- name.
+- slug.
+- title.
+- description.
+- components.
+- seo.
+- order.
+- visibility.
+
+### WebsiteComponent
+
+- id.
+- type.
+- name.
+- properties.
+- styles.
+- responsiveStyles.
+- children.
+- visibility.
+- order.
+
+### WebsiteAsset
+
+- id.
+- name.
+- type.
+- mimeType.
+- size.
+- blob.
+- createdAt.
+
+### WebsiteVersion
+
+- id.
+- projectId.
+- versionNumber.
+- snapshot.
+- createdAt.
+
+Criar relações consistentes entre projetos, páginas, componentes e arquivos.
+
+Permitir migração do modelo de dados.
+
+Utilizar identificadores únicos.
+
+Implementar validação dos dados.
+
+---
+
+# 8. TIPOS DE SITES SUPORTADOS
+
+O SITEFORGE deverá ter uma biblioteca de categorias.
+
+### Sites institucionais
+
+- Empresas.
+- Clínicas.
+- Escritórios.
+- Consultorias.
+- Prestadores de serviços.
+
+### Sites comerciais
+
+- Restaurantes.
+- Barbearias.
+- Salões.
+- Academias.
+- Lojas.
+- Imobiliárias.
+
+### Landing pages
+
+- Produtos.
+- Lançamentos.
+- Campanhas.
+- Captação de leads.
+- Páginas de vendas.
+
+### Portfólios
+
+- Desenvolvedores.
+- Designers.
+- Fotógrafos.
+- Agências.
+- Profissionais autônomos.
+
+### E-commerce
+
+- Vitrine.
+- Catálogo.
+- Categorias.
+- Página de produto.
+- Carrinho.
+- Estrutura para checkout externo.
+
+### Web applications
+
+- Dashboards.
+- Ferramentas.
+- Sistemas administrativos.
+- Interfaces de gerenciamento.
+- Aplicações interativas.
+
+O sistema deverá reconhecer que alguns projetos exigem backend, autenticação, banco de dados e serviços externos.
+
+Não prometer funcionamento completo de funcionalidades que dependem de infraestrutura não implementada.
+
+---
+
+# 9. DASHBOARD PRINCIPAL
+
+Criar uma interface extremamente profissional.
+
+Sidebar:
+
+- Início.
+- Criar novo site.
+- Meus projetos.
+- Templates.
+- Componentes.
+- Biblioteca de arquivos.
+- Publicações.
+- Configurações.
+
+Cabeçalho:
+
+- Busca.
+- Identificação do workspace.
+- Ajuda.
+- Configurações.
+- Perfil local.
+
+Área principal:
+
+Hero:
+
+"Transforme suas ideias em sites extraordinários."
+
+Subtítulo:
+
+"Crie experiências digitais profissionais com liberdade total para editar, personalizar e publicar."
+
+Botão principal:
+
+"CRIAR NOVO SITE"
+
+Botão secundário:
+
+"EXPLORAR TEMPLATES"
+
+Criar cards para:
+
+- Sites recentes.
+- Projetos em andamento.
+- Templates recomendados.
+- Criar landing page.
+- Criar site institucional.
+- Criar loja virtual.
+- Criar portfólio.
+
+Criar estados vazios sofisticados.
+
+Não exibir projetos fictícios como se fossem dados reais.
+
+---
+
+# 10. FLUXO DE CRIAÇÃO DE UM SITE
+
+Criar um assistente inicial.
+
+ETAPA 1 — TIPO DE SITE
+
+Permitir selecionar:
+
+- Institucional.
+- Landing page.
+- Loja virtual.
+- Portfólio.
+- Restaurante.
+- Serviços.
+- Blog.
+- Web app.
+- Personalizado.
+
+ETAPA 2 — INFORMAÇÕES
+
+Campos:
+
+- Nome da empresa.
+- Segmento.
+- Descrição.
+- Público-alvo.
+- Objetivo do site.
+- Produtos e serviços.
+- Diferenciais.
+- Contatos.
+- Redes sociais.
+- Endereço.
+- Informações adicionais.
+
+ETAPA 3 — IDENTIDADE VISUAL
+
+Permitir:
+
+- Enviar logotipo.
+- Escolher paleta.
+- Definir fontes.
+- Escolher estilo.
+- Selecionar referências.
+- Enviar imagens.
+
+ETAPA 4 — ESTRUTURA DO SITE
+
+Selecionar páginas desejadas.
+
+Exemplos:
+
+- Home.
+- Sobre.
+- Serviços.
+- Produtos.
+- Portfólio.
+- Depoimentos.
+- Blog.
+- Contato.
+- FAQ.
+
+ETAPA 5 — ESTILO
+
+Opções:
+
+- Minimalista.
+- Corporativo.
+- Luxuoso.
+- Moderno.
+- Editorial.
+- Criativo.
+- Tecnológico.
+- Elegante.
+- Comercial.
+
+ETAPA 6 — GERAR PROJETO
+
+O motor local deverá selecionar componentes e templates compatíveis e montar uma primeira estrutura editável.
+
+O projeto deverá abrir no editor visual.
+
+---
+
+# 11. VISUAL BUILDER — EDITOR PROFISSIONAL
+
+Este será o principal módulo do SITEFORGE IA.
+
+Criar um editor profissional com:
+
+- Barra superior.
+- Painel esquerdo.
+- Canvas central.
+- Painel direito.
+- Controles de responsividade.
+- Barra de ferramentas.
+- Sistema de camadas.
+- Painel de propriedades.
+
+### Barra superior
+
+- Nome do projeto.
+- Salvar.
+- Desfazer.
+- Refazer.
+- Desktop.
+- Tablet.
+- Mobile.
+- Pré-visualizar.
+- Exportar.
+
+### Painel esquerdo
+
+Abas:
+
+1. Páginas.
+2. Elementos.
+3. Seções.
+4. Componentes.
+5. Camadas.
+6. Arquivos.
+
+### Canvas central
+
+Permitir:
+
+- Selecionar componentes.
+- Arrastar componentes.
+- Editar textos.
+- Inserir elementos.
+- Redimensionar.
+- Reordenar.
+- Duplicar.
+- Excluir.
+- Visualizar o site.
+
+### Painel direito
+
+Exibir propriedades do elemento selecionado.
+
+Permitir alterar:
+
+- Conteúdo.
+- Dimensões.
+- Margens.
+- Padding.
+- Cores.
+- Fontes.
+- Bordas.
+- Sombras.
+- Alinhamento.
+- Posição.
+- Responsividade.
+- Visibilidade.
+
+Utilizar GrapesJS como motor de edição.
+
+Criar integração adequada com o modelo de dados próprio.
+
+Não armazenar somente HTML bruto.
+
+Persistir os componentes e estilos de forma que o projeto possa ser reaberto e editado.
+
+---
+
+# 12. DESIGN SYSTEM E COMPONENT LIBRARY
+
+Criar uma biblioteca profissional de componentes.
+
+Categorias:
+
+### Estrutura
+
+- Header.
+- Navbar.
+- Footer.
+- Container.
+- Grid.
+- Flex layout.
+- Seções.
+
+### Conteúdo
+
+- Heading.
+- Texto.
+- Imagem.
+- Vídeo.
+- Ícone.
+- Lista.
+- Depoimento.
+- FAQ.
+- Estatísticas.
+
+### Comercial
+
+- Botão.
+- CTA.
+- Card de produto.
+- Card de serviço.
+- Tabela de preços.
+- Banner.
+- Promoção.
+
+### Formulários
+
+- Input.
+- Textarea.
+- Select.
+- Checkbox.
+- Radio.
+- Formulário de contato.
+
+### Navegação
+
+- Menu.
+- Breadcrumb.
+- Tabs.
+- Paginação.
+- Links.
+
+### E-commerce
+
+- Produto.
+- Galeria.
+- Preço.
+- Variações.
+- Carrinho visual.
+- Botão de checkout externo.
+
+Cada componente deverá ter configurações, estilos e comportamento apropriados.
+
+Criar componentes reutilizáveis.
+
+Permitir salvar componentes personalizados.
+
+---
+
+# 13. SISTEMA DE MÚLTIPLAS PÁGINAS
+
+Permitir criar e gerenciar várias páginas.
+
+Funcionalidades:
+
+- Nova página.
+- Duplicar página.
+- Renomear.
+- Excluir.
+- Alterar slug.
+- Definir página inicial.
+- Ordenar.
+- Ocultar.
+- Configurar SEO.
+
+Criar navegação entre páginas.
+
+Permitir links internos e externos.
+
+Criar gerenciamento de menus.
+
+Validar rotas e links internos durante a exportação.
+
+---
+
+# 14. RESPONSIVIDADE
+
+O SITEFORGE deverá gerar sites responsivos.
+
+Permitir visualizar:
+
+- Desktop.
+- Tablet.
+- Smartphone.
+
+Criar propriedades específicas por breakpoint.
+
+Utilizar CSS responsivo e media queries.
+
+Permitir controlar:
+
+- Tamanho de fonte.
+- Colunas.
+- Espaçamento.
+- Alinhamento.
+- Visibilidade.
+- Largura.
+- Imagens.
+
+Não apenas reduzir a versão desktop.
+
+Os layouts deverão ser adaptados de maneira apropriada para cada dispositivo.
+
+---
+
+# 15. CONVERSATIONAL BUILDER
+
+Criar um assistente conversacional dentro do editor.
+
+Interface:
+
+- Painel de conversa.
+- Campo de mensagem.
+- Histórico.
+- Sugestões de comandos.
+- Prévia das alterações.
+
+Exemplos:
+
+"Adicione um banner com chamada comercial."
+
+"Troque o título principal."
+
+"Crie uma página de serviços."
+
+"Adicione três cards de benefícios."
+
+"Faça o menu ficar fixo."
+
+"Altere o layout para duas colunas."
+
+"Deixe a versão mobile mais compacta."
+
+O sistema deverá produzir operações estruturadas e mostrar uma prévia antes de confirmar alterações importantes.
+
+Implementar comandos locais reconhecidos.
+
+Criar sistema de perguntas quando faltarem informações.
+
+Para comandos complexos não reconhecidos, oferecer o External AI Prompt Bridge.
+
+---
+
+# 16. TEMPLATES PROFISSIONAIS
+
+Criar uma biblioteca de templates editáveis.
+
+Cada template deverá ser um projeto estruturado e não uma imagem estática.
+
+Categorias:
+
+- Empresa.
+- Tecnologia.
+- Restaurante.
+- Barbearia.
+- Beleza.
+- Moda.
+- Saúde.
+- Imobiliária.
+- Agência.
+- Portfólio.
+- Landing page.
+- E-commerce.
+
+Criar uma coleção inicial pequena, mas de alta qualidade.
+
+Cada template deverá incluir:
+
+- Prévia.
+- Nome.
+- Categoria.
+- Descrição.
+- Páginas.
+- Componentes.
+- Identidade visual.
+- Botão visualizar.
+- Botão utilizar.
+
+---
+
+# 17. CODE ENGINE
+
+Criar um motor para transformar os projetos estruturados em sites exportáveis.
+
+O formato de saída deverá priorizar:
+
+- HTML semântico.
+- CSS organizado.
+- JavaScript quando necessário.
+- Imagens e arquivos locais.
+- Responsividade.
+- SEO básico.
+- Navegação funcional.
+
+Gerar uma estrutura de arquivos organizada.
+
+Exemplo:
+
+website/
+  index.html
+  pages/
+    about.html
+    services.html
+    contact.html
+  assets/
+    css/
+      styles.css
+    js/
+      main.js
+    images/
+  README.md
+
+Quando um projeto exigir lógica mais complexa, permitir uma exportação adicional como projeto React.
+
+Não misturar código do aplicativo SITEFORGE IA com o código do site criado pelo cliente.
+
+Garantir que o site exportado seja independente do SITEFORGE IA.
+
+---
+
+# 18. E-COMMERCE E INTEGRAÇÕES
+
+Criar recursos para construir interfaces de lojas virtuais.
+
+Funcionalidades:
+
+- Catálogo.
+- Categorias.
+- Página de produto.
+- Galeria.
+- Preços.
+- Variações.
+- Carrinho visual.
+- Botões de compra.
+- Links de checkout.
+
+Permitir integrar provedores externos por links e configurações fornecidas pelo cliente.
+
+Não armazenar dados de cartão.
+
+Não implementar processamento de pagamento próprio.
+
+Não afirmar que o checkout está funcional sem integração real.
+
+Criar uma camada de integração preparada para serviços externos.
+
+---
+
+# 19. FORMULÁRIOS E FUNCIONALIDADES DINÂMICAS
+
+Criar formulários visuais.
+
+Permitir configurar:
+
+- Campos.
+- Validação.
+- Mensagens.
+- Botões.
+- Ações de envio.
+
+Quando não houver backend, oferecer:
+
+- Exportação do formulário para integração posterior.
+- Link para serviço externo.
+- Instruções de configuração.
+
+Não simular envio real de mensagens.
+
+---
+
+# 20. SEO E ACESSIBILIDADE
+
+Criar módulo de SEO.
+
+Permitir:
+
+- Title.
+- Meta description.
+- URL amigável.
+- Open Graph.
+- Favicon.
+- Alt text.
+- Sitemap quando aplicável.
+- Robots.txt quando aplicável.
+
+Implementar boas práticas:
+
+- HTML semântico.
+- Contraste.
+- Navegação por teclado.
+- Labels.
+- Atributos acessíveis.
+- Hierarquia de títulos.
+- Otimização de imagens.
+- Performance.
+
+Não prometer posicionamento em mecanismos de busca.
+
+---
+
+# 21. ASSET MANAGER
+
+Criar biblioteca de arquivos.
+
+Permitir:
+
+- Importar imagens.
+- Importar logotipos.
+- Importar SVG.
+- Organizar arquivos.
+- Renomear.
+- Excluir.
+- Pesquisar.
+- Visualizar.
+- Inserir no site.
+
+Armazenar arquivos localmente.
+
+Validar MIME type e tamanho.
+
+Criar previews.
+
+Não utilizar links externos de imagens como única forma de armazenar conteúdo importante.
+
+---
+
+# 22. VERSIONAMENTO
+
+Criar sistema de histórico.
+
+Permitir:
+
+- Salvar versão.
+- Restaurar versão.
+- Duplicar projeto.
+- Comparar versões quando possível.
+- Desfazer e refazer alterações.
+
+Criar autosave local com tratamento de erros.
+
+Não sobrescrever projetos sem controle.
+
+---
+
+# 23. EXPORTAÇÃO ZIP
+
+Criar um exportador profissional.
+
+Permitir:
+
+- Exportar projeto completo.
+- Exportar somente páginas selecionadas.
+- Exportar código HTML/CSS/JS.
+- Exportar projeto React quando suportado.
+- Incluir assets.
+- Incluir README.
+- Incluir instruções de publicação.
+
+O ZIP deverá possuir estrutura organizada.
+
+Validar arquivos e links antes da exportação.
+
+Criar relatório de exportação.
+
+Não incluir dados privados do SITEFORGE IA no projeto exportado.
+
+---
+
+# 24. PUBLICAÇÃO INTEGRADA
+
+Preparar uma arquitetura opcional para publicação em hospedagens externas.
+
+Possíveis integrações futuras:
+
+- GitHub.
+- Netlify.
+- Vercel.
+- Outras hospedagens compatíveis.
+
+Implementar somente integrações oficiais e autorizadas.
+
+Não armazenar tokens em arquivos exportados.
+
+Utilizar OAuth ou credenciais protegidas quando disponíveis.
+
+O cliente deverá autorizar a publicação.
+
+Caso a integração não esteja configurada, disponibilizar ZIP e instruções de hospedagem.
+
+A publicação pode depender de contas, limites e preços do provedor externo.
+
+Não prometer hospedagem gratuita permanente.
+
+---
+
+# 25. ARMAZENAMENTO LOCAL
+
+Utilizar IndexedDB + Dexie.js.
+
+Criar tabelas:
+
+- projects.
+- pages.
+- components.
+- assets.
+- templates.
+- versions.
+- settings.
+
+Criar migrações.
+
+Criar validação.
+
+Criar gerenciamento de espaço.
+
+Criar alertas quando o armazenamento estiver próximo de limites disponíveis.
+
+Não armazenar grandes arquivos em LocalStorage.
+
+Implementar persistência local quando suportada pelo navegador.
+
+---
+
+# 26. BACKUP E RESTAURAÇÃO
+
+Criar sistema de backup completo.
+
+Permitir:
+
+- Backup de todos os projetos.
+- Backup individual.
+- Backup de assets.
+- Backup de configurações.
+- Restauração.
+- Validação.
+- Importação.
+
+Formato ZIP.
+
+Criar metadados de versão do backup.
+
+Antes de restaurar, verificar conflitos e solicitar confirmação.
+
+Nunca apagar projetos existentes silenciosamente.
+
+---
+
+# 27. PWA E OFFLINE
+
+Criar PWA instalável.
+
+Implementar:
+
+- Web App Manifest.
+- Ícones.
+- Service Worker.
+- Cache de recursos.
+- Página offline.
+- Estratégia de atualização.
+- Instalação em dispositivos compatíveis.
+
+Permitir abrir projetos locais sem conexão.
+
+Permitir editar e exportar quando todos os recursos necessários estiverem armazenados.
+
+Explicar que publicação e integrações externas precisam de internet.
+
+Não apagar dados durante atualização do aplicativo.
+
+---
+
+# 28. SEGURANÇA
+
+Implementar:
+
+- Validação de arquivos.
+- Sanitização de conteúdo.
+- Proteção contra XSS.
+- Tratamento de HTML importado.
+- Validação de URLs.
+- Restrição de scripts arbitrários.
+- Segurança no carregamento de imagens.
+- Validação de projetos.
+- Validação de backups.
+
+Não executar código arbitrário de projetos importados automaticamente.
+
+Criar uma área de pré-visualização isolada para conteúdo não confiável.
+
+---
+
+# 29. DESIGN E EXPERIÊNCIA DO EDITOR
+
+O editor deverá ter uma interface extremamente refinada.
+
+A experiência deverá ser comparável a ferramentas profissionais de criação.
+
+No desktop:
+
+- Sidebar de ferramentas.
+- Canvas central.
+- Painel de propriedades.
+- Barra superior.
+- Painel conversacional opcional.
+
+No celular:
+
+- Interface adaptada.
+- Ferramentas em painéis compactos.
+- Visualização responsiva.
+- Navegação simples.
+
+Não tentar reproduzir integralmente o layout desktop em uma tela pequena.
+
+Priorizar usabilidade.
+
+---
+
+# 30. QUALIDADE E TESTES
+
+Criar testes para:
+
+- Criação de projeto.
+- Criação de páginas.
+- Inserção de componentes.
+- Alteração de estilos.
+- Salvamento.
+- Recuperação.
+- Exportação.
+- Backup.
+- Restauração.
+- Responsividade.
+- Navegação.
+- Integridade dos dados.
+
+Testar os sites exportados separadamente.
+
+Criar verificação de links quebrados e recursos ausentes.
+
+Corrigir erros antes de avançar.
+
+---
+
+# 31. ARQUITETURA PREPARADA PARA EVOLUÇÃO
+
+Manter o SITEFORGE CORE independente.
+
+Preparar para futuros módulos:
+
+- Biblioteca de templates premium.
+- Componentes avançados.
+- Integrações com CMS.
+- Conectores de hospedagem.
+- Assistente IA por API opcional.
+- Importação de projetos.
+- Exportação avançada.
+- Aplicações web com backend.
+
+Não implementar funcionalidades futuras antes de validar a arquitetura básica.
+
+---
+
+# 32. ESTRATÉGIA DE DESENVOLVIMENTO
+
+Não implementar tudo de uma vez.
+
+Trabalhar em fases.
+
+FASE 1 — FUNDAÇÃO VISUAL:
+- Identidade visual.
+- Dashboard.
+- Navegação.
+- Layout geral.
+- Estrutura de projetos.
+- Design premium.
+
+FASE 2 — PROJECT CORE:
+- Banco local.
+- Criação de projetos.
+- Gerenciamento de páginas.
+- Autosave.
+- Assets.
+
+FASE 3 — VISUAL BUILDER:
+- Integração GrapesJS.
+- Canvas.
+- Componentes.
+- Propriedades.
+- Responsividade.
+- Camadas.
+
+FASE 4 — TEMPLATE ENGINE:
+- Biblioteca de templates.
+- Componentes reutilizáveis.
+- Geração local de páginas.
+- Design tokens.
+
+FASE 5 — CONVERSATIONAL BUILDER:
+- Command Engine.
+- Operações estruturadas.
+- Prévia de alterações.
+- Prompt Bridge.
+
+FASE 6 — CODE ENGINE:
+- Geração HTML/CSS/JS.
+- Exportação React.
+- Validação.
+- Preview independente.
+
+FASE 7 — RECURSOS AVANÇADOS:
+- SEO.
+- Formulários.
+- Catálogos.
+- E-commerce visual.
+- Integrações.
+
+FASE 8 — EXPORTAÇÃO E PUBLICAÇÃO:
+- ZIP.
+- README.
+- Integrações autorizadas.
+- Instruções de hospedagem.
+
+FASE 9 — BACKUP E PWA:
+- Backup.
+- Restauração.
+- Offline.
+- Atualizações.
+
+FASE 10 — TESTES E ACABAMENTO:
+- Performance.
+- Segurança.
+- Responsividade.
+- Testes de ponta a ponta.
+
+---
+
+# 33. REGRAS OBRIGATÓRIAS DE DESENVOLVIMENTO
+
+1. Nunca remover funcionalidades existentes sem autorização.
+2. Não criar botões decorativos.
+3. Não simular funcionalidades.
+4. Não deixar páginas vazias.
+5. Não gerar apenas imagens estáticas de sites.
+6. O conteúdo do canvas deve ser realmente editável.
+7. O projeto deverá ser persistido localmente.
+8. O editor deverá conseguir reabrir projetos.
+9. O site exportado deverá ser independente.
+10. Não inserir API paga obrigatória.
+11. Não incluir chaves secretas no frontend.
+12. Não implementar serviços externos sem autorização.
+13. Não misturar o aplicativo gerador com os projetos criados.
+14. Preservar o padrão visual em todas as páginas.
+15. Utilizar componentes reutilizáveis.
+16. Verificar erros de compilação após cada fase.
+17. Testar as funcionalidades implementadas.
+18. Explicar claramente as limitações de recursos externos.
+
+---
+
+# 34. PRIMEIRA EXECUÇÃO
+
+Analise cuidadosamente toda a especificação.
+
+Não tente desenvolver a plataforma inteira em uma única execução.
+
+Implemente SOMENTE A FASE 1.
+
+O resultado da primeira execução deverá conter:
+
+- Identidade visual definitiva do SITEFORGE IA.
+- Dashboard premium.
+- Sidebar funcional.
+- Cabeçalho.
+- Área de projetos.
+- Tela de criação de novo site.
+- Categorias de sites.
+- Biblioteca inicial de templates ilustrativos claramente identificados.
+- Layout responsivo.
+- Estrutura modular.
+- Navegação funcional.
+- Configuração central de identidade.
+
+O design deve ser excepcional.
+
+Não criar um dashboard genérico.
+
+Não apresentar o editor como pronto antes de implementar seu motor.
+
+Preparar os pontos de extensão para as próximas fases.
+
+Antes de finalizar:
+
+- Verificar compilação.
+- Corrigir erros.
+- Conferir responsividade.
+- Conferir navegação.
+- Conferir consistência visual.
+
+**OBJETIVO FINAL:**
+
+Construir o SITEFORGE IA como uma plataforma profissional de criação de sites, comercializada por compra única, com editor visual, assistente conversacional, geração de código, exportação e publicação opcional.
+
+Comece pela FASE 1 e aguarde validação antes de avançar.

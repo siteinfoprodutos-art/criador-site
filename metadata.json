@@ -1,0 +1,6 @@
+{
+  "name": "SITEFORGE IA",
+  "description": "Professional Website Creation Studio com editor visual, assistente conversacional, biblioteca de componentes e exportação de código.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
